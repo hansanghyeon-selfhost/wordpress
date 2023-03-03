@@ -1,0 +1,10 @@
+{
+  "name": "wordpress",
+  "author": "Hansanghyeon <999@hyeon.pro>",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "themes/*"
+    ]
+  }
+}
