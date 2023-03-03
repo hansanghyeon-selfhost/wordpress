@@ -4,30 +4,6 @@
 ```
 .
 ├── .wp
-│   ├── db
-│   │   ├── data              // mariadb의 데이터 폴더
-│   │   └── .gitkeep
-│   ├── traefik
-│   │   ├── acme              // traefik 인증서
-│   │   │   └── .gitkeep
-│   │   ├── rules             // traefik dynamic config 폴더
-│   │   │   └── .gitkeep
-│   │   └── traefik.yaml
-│   └── wp
-│       ├── wp-content        // 워드프레스 컨텐츠 폴더
-│       └── .gitkeep
-├── .env.example
-├── .gitignore
-├── Makefile
-├── README.md
-├── apps
-│   └── theme                 // 워드프레스에서 사용할 테마 폴더
-│       └── .gitkeep
-├── docker-compose.local.yaml
-└── docker-compose.yaml
-
-.
-├── .wp
 │   └── main // production wordpress (/var/www/html)
 ├── .db
 │   └── main // production wordpress db
